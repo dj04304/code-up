@@ -2,7 +2,7 @@ package codeup40;
 
 import java.util.Scanner;
 
-public class Codeup31 {
+public class Codeup32 {
 	
 	public static void main(String[] args) {
 		
@@ -12,7 +12,7 @@ public class Codeup31 {
 		
 		String hexString = Integer.toHexString(hex);
 		
-		System.out.println(hexString);
+		System.out.println(hexString.toUpperCase());
 		
 	}
 }

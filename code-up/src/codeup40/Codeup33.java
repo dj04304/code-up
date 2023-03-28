@@ -2,17 +2,17 @@ package codeup40;
 
 import java.util.Scanner;
 
-public class Codeup31 {
+public class Codeup33 {
 	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int hex = sc.nextInt();
+		String octal = sc.nextLine();
 		
-		String hexString = Integer.toHexString(hex);
+		int num = Integer.parseInt(octal, 8);
 		
-		System.out.println(hexString);
+		System.out.println(num);
 		
 	}
 }

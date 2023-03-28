@@ -1,16 +1,18 @@
-package codeup10;
+package codeup40;
 
 import java.util.Scanner;
 
-public class Codeup10 {
-
+public class Codeup36 {
+	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		char a = sc.next().charAt(0);
+		int num = sc.nextInt();
 		
-		System.out.println(a);
+		char asc = (char)num;
+		
+		System.out.println(asc);
 		
 	}
 }
